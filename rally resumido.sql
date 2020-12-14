@@ -20,7 +20,7 @@ create table piloto(
 	id int not null auto_increment,
     nome varchar(250),
     email varchar(100),
-    cpf varchar(11),
+    cpf varchar(15),
     dataNascimento date,
     cidade varchar(300),
     uf varchar(2),
